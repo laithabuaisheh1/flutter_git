@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_example1/controller/swapname_controller.dart';
+import 'package:flutter_example1/examples/simplelayoutpage.dart';
 import 'package:flutter_example1/screen/swapname.dart';
 import 'package:provider/provider.dart';
 //import 'package:test_fullter/exampls/counter_example.dart';
@@ -26,7 +27,7 @@ class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: NameSwapWithProvider(),
+      home: SimpleLayoutPage(),
       debugShowCheckedModeBanner: false,
     );
   }
